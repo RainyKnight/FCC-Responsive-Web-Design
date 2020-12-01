@@ -3,7 +3,7 @@
     --ui-background: hsl(0, 0%, 26%);
     --ui-white: white;
     --ui-pop: indianred;
-    --shadow: 0px 3px 5px black;
+    --shadow: 0px 1px 5px black;
 }
 
 body {
@@ -48,6 +48,12 @@ footer {
     text-align: center;
     padding: 3px;
     color: white;
+}
+
+blockquote {
+    box-shadow: var(--shadow);
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.509);
 }
 
 /* Basic Media Query */
