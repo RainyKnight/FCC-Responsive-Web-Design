@@ -72,15 +72,22 @@ blockquote {
 
 /* Responsive Images */
 
-img {
+.responsive-image {
     max-width: 80%;
     /* keep the aspect ratio the sames */
     height: auto;
 }
 
-/* retina image */
+/* retina displays */
+
 #retina-image {
+    width: 1028px;
+    height: 432px;
+}
+
+/* Just chop the dimensions in half */
+
+#retina-image-scaled {
     width: 514px;
     height: 216px;
-
 }
