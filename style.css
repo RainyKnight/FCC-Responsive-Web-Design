@@ -51,8 +51,17 @@ footer {
 }
 
 /* Basic Media Query */
+
 @media (max-width: 500px) {
     .banner {
         background-color: var(--ui-pop);
     }
+}
+
+/* Responsive Images */
+
+img {
+    max-width: 80%;
+    /* keep the aspect ratio the sames */
+    height: auto;
 }
