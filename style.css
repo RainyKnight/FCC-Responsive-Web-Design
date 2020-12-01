@@ -49,3 +49,10 @@ footer {
     padding: 3px;
     color: white;
 }
+
+/* Basic Media Query */
+@media (max-width: 500px) {
+    .banner {
+        background-color: var(--ui-pop);
+    }
+}
