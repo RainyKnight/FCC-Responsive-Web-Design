@@ -91,3 +91,9 @@ blockquote {
     width: 514px;
     height: 216px;
 }
+
+/* responsive typography */
+.responsive {
+    width: 80vw;
+    height: 3vh;
+}
