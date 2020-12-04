@@ -95,8 +95,7 @@ blockquote {
 /* responsive typography */
 
 .responsive {
-    width: 80vw;
-    height: 3vh;
+   font-size: 2vw;
 }
 
 .really-responsive {
