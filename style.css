@@ -93,11 +93,12 @@ blockquote {
 }
 
 /* responsive typography */
+
 .responsive {
     width: 80vw;
     height: 3vh;
 }
 
 .really-responsive {
-    
+    font-size: 2vmax;
 }
