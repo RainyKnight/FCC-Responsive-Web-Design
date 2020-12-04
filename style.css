@@ -94,29 +94,31 @@ blockquote {
 
 /* responsive typography */
 
+.responsive-typography {
+    margin: auto;
+    margin-top: 10px;
+    border-style: solid;
+}
+
 #vw {
     font-size: 10vw;
     width: 20vw;
-    border-style: solid;
     background-color: honeydew;
  }
 
  #vh {
     font-size: 10vh;
     width: 20vh;
-    border-style: solid;
     background-color: lightyellow;
  }
  #vmin {
     font-size: 10vmin;
     width: 40vmin;
-    border-style: solid;
     background-color: lightcoral;
  }
  #vmax {
     font-size: 10vmax;
     width: 40vmax;
-    border-style: solid;
     background-color: lightskyblue;
  }
     
