@@ -32,15 +32,29 @@ nav {
 main {
     margin: 15px 30px 15px 30px;
     padding: 15px;
-    background-color: var(--ui-white);
+    background-color: mintcream;
 }
 
 .banner {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: whitesmoke;
     box-shadow: var(--shadow);
     padding: 15px;
     margin: 15px;
-    font-size: 36px;
+}
+
+h2 {
+    margin-top: 5px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: var(--shadow);
+    border-style: solid;
 }
 
 footer {
@@ -90,6 +104,7 @@ blockquote {
 #retina-image-scaled {
     width: 514px;
     height: 216px;
+    margin-bottom: 10px;
 }
 
 /* responsive typography */
@@ -97,6 +112,7 @@ blockquote {
 .responsive-typography {
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
     border-style: solid;
 }
 
@@ -104,21 +120,22 @@ blockquote {
     font-size: 10vw;
     width: 20vw;
     background-color: honeydew;
- }
+}
 
- #vh {
+#vh {
     font-size: 10vh;
     width: 20vh;
     background-color: lightyellow;
- }
- #vmin {
+}
+
+#vmin {
     font-size: 10vmin;
     width: 40vmin;
     background-color: lightcoral;
- }
- #vmax {
+}
+
+#vmax {
     font-size: 10vmax;
     width: 40vmax;
     background-color: lightskyblue;
- }
-    
+}
