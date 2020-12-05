@@ -14,7 +14,10 @@ body {
 
 nav {
     background-color: var(--ui-accent);
-    position: static;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
     padding: 15px;
     text-align: left;
 }
@@ -43,6 +46,7 @@ main {
     border-style: solid;
     padding: 15px;
     margin: 15px;
+    margin-top: 65px;
 }
 
 h2 {
@@ -60,6 +64,10 @@ section {
 }
 
 footer {
+    position: absolute;
+    width: 100%;
+    bottom: 10;
+    left: 0;
     background-color: var(--ui-accent);
     text-align: center;
     padding: 3px;
