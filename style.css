@@ -33,12 +33,14 @@ main {
     margin: 15px 30px 15px 30px;
     padding: 15px;
     background-color: mintcream;
+    border-style: solid;
 }
 
 .banner {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: whitesmoke;
     box-shadow: var(--shadow);
+    border-style: solid;
     padding: 15px;
     margin: 15px;
 }
