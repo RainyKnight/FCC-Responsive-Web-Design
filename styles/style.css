@@ -61,6 +61,7 @@ section {
     background-color: white;
     box-shadow: var(--shadow);
     border-style: solid;
+    overflow: hidden;
 }
 
 footer {
