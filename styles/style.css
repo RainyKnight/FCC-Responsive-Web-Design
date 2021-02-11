@@ -120,6 +120,13 @@ blockquote {
         margin: -5px;
         margin-top: 48px;
     }
+    section {
+        margin: 5px;
+        border-style: solid;
+    }
+    blockquote {
+        margin: initial;
+    }
 }
 
 /* Responsive Images */
