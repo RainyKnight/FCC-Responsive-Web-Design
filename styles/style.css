@@ -30,6 +30,7 @@ nav {
     padding: 15px;
     text-align: center;
     overflow: hidden;
+    box-shadow: var(--shadow);
 }
 
 .navbutton {
@@ -107,8 +108,15 @@ blockquote {
 /* Basic Media Query */
 
 @media (max-width: 500px) {
+    body {
+        text-align: left;
+    }
+    h2 {
+        text-align: center;
+    }
     .banner {
         background-color: var(--ui-pop);
+        text-align: center;
     }
     main {
         margin: -5px;
@@ -127,6 +135,7 @@ blockquote {
     blockquote {
         margin: initial;
     }
+    img {}
 }
 
 /* Responsive Images */
