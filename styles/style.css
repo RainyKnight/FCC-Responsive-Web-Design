@@ -110,6 +110,16 @@ blockquote {
     .banner {
         background-color: var(--ui-pop);
     }
+    main {
+        margin: -5px;
+        padding: initial;
+    }
+    .banner {
+        box-shadow: initial;
+        padding: 10px;
+        margin: -5px;
+        margin-top: 48px;
+    }
 }
 
 /* Responsive Images */
